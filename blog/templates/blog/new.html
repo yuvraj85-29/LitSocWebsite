@@ -1,0 +1,102 @@
+{%extends "blog/base.html"%}
+{%block content%}
+{% load static %}
+{% block extrahead %}
+<!-- <link rel="stylesheet" href="{% static 'blog/new.css' %}">
+ -->
+ <link rel="stylesheet" href='/static/blog/new.css?{% now "U" %}'/>
+
+{% endblock %}
+
+<!-- <link rel="stylesheet" type="text/css" href="{%static 'blog/about.css' %}"> -->
+
+  <!-- <h1>about page</h1> -->
+
+
+<div id="intro">
+  <p>
+    Words hold a magic <br>
+    That transcends the ravages of time –<br><br>
+
+    
+    The embers of the past <br>
+    That still glow beneath layers of prose, <br><br>
+
+
+    A voice from the future <br>
+    Calling out to us through the gales of poetry.<br>
+
+  </p>
+</div>
+
+<div>
+  <div class="row align-items-center">
+    <div class="col" >
+      <img src="{% static 'blog/p1.jpeg' %}" alt="My image" width="320px" height="320px">
+      <h4>By Nikita Yadav</h4><h5><a href="{%url 'blog-p1'%}">(read more)</a></h5>
+    </div>
+    <div class="col">
+      <img src="{% static 'blog/p2.jpeg' %}" alt="My image" width="320px" height="320px">
+      <h4>By Vinayak Kuthiyala</h4><h5><a href="{%url 'blog-p2'%}">(read more)</a></h5>
+    </div>
+    <div class="col">
+      <img src="{% static 'blog/p3.jpeg' %}" alt="My image" width="320px" height="320px">
+      <h4>By Kshitij Gupta</h4><h5><a href="{%url 'blog-p3'%}">(read more)</a></h5>
+    </div>
+  </div>
+  <br><br><br>
+  <div class="row align-items-center">
+    <div class="col">
+      <img src="{% static 'blog/p4.jpeg' %}" alt="My image" width="320px" height="320px">
+      <h4>By Hitesh Shrimali</h4><h5><a href="{%url 'blog-p4'%}">(read more)</a></h5>
+    </div>
+    <div class="col">
+      <img src="{% static 'blog/p5.jpeg' %}" alt="My image" width="320px" height="320px">
+      <h4>By Anonymous</h4><h5><a href="{%url 'blog-p5'%}">(read more)</a></h5>
+    </div>
+    <div class="col">
+      <img src="{% static 'blog/p6.jpeg' %}" alt="My image" width="320px" height="320px">
+      <h3>hey</h3>
+    </div>
+  </div>
+  <br><br><br>
+  <div class="row align-items-center">
+    <div class="col">
+      <img src="{% static 'blog/p7.jpeg' %}" alt="My image" width="320px" height="320px">
+      <h3>hey</h3>
+    </div>
+    <div class="col">
+      <img src="{% static 'blog/p16.jpeg' %}" alt="My image" width="320px" height="320px">
+      <h3>hey</h3>
+    </div>
+    <div class="col">
+      <img src="{% static 'blog/p1.jpeg' %}" alt="My image" width="320px" height="320px">
+    </div>
+  </div>
+  <br><br><br>
+  <div class="row align-items-center">
+    <div class="col">
+      <img src="{% static 'blog/p10.jpeg' %}" alt="My image" width="320px" height="320px">
+      <h3>hey</h3>
+    </div>
+    <div class="col">
+      <img src="{% static 'blog/p11.jpeg' %}" alt="My image" width="320px" height="320px">
+      <h3>hey</h3>
+    </div>
+    <div class="col">
+      <img src="{% static 'blog/p12.jpeg' %}" alt="My image" width="320px" height="320px">
+      <h3>hey</h3>
+    </div>
+  </div>
+  <br><br><br>
+  <div class="row align-items-center">
+    <div class="col"><img src="{% static 'blog/p13.jpeg' %}" alt="My image" width="320px" height="320px"></div>
+    <div class="col"><img src="{% static 'blog/p14.jpeg' %}" alt="My image" width="320px" height="320px"></div>
+    <div class="col"><img src="{% static 'blog/p15.jpeg' %}" alt="My image" width="320px" height="320px"></div>
+  </div>
+</div>
+
+
+
+  
+{%endblock content%}

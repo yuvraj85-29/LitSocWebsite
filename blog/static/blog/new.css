@@ -1,0 +1,14 @@
+/* html{
+    background-color: chocolate;
+} */
+
+body{
+    background-color: rgb(255, 211, 211);
+}
+
+.container2 {
+    margin: 100px;
+    border: 10px solid;
+    border-color: tomato;
+    color:aqua;
+}

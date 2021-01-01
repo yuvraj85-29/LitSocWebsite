@@ -1,0 +1,24 @@
+body{
+    /* background-color: rgb(223, 188, 240); */
+    background-image: url('t9.jpg');
+  }
+
+#intro{
+    background-image: url('t5.jpg');
+    align-items: center;
+    image-resolution: 100px 200px;
+    align-content: center;
+    font-family: 'Yatra One', cursive;
+}
+
+#para{
+    background-image: url('t5.jpg');
+    align-items: center;
+    /* height: 900px; */
+    font-family: 'Arya', sans-serif;
+    font-size: 25px;
+    margin-bottom: 400px;
+}
+.post{
+    margin: 100px;
+}

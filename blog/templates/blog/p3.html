@@ -1,0 +1,94 @@
+{%extends "blog/base.html"%}
+{%block content%}
+{% load static %}
+{% block extrahead %}
+<!-- <link rel="stylesheet" href="{% static 'blog/new.css' %}">
+ -->
+ <link rel="stylesheet" href='/static/blog/p1hindi.css?{% now "U" %}'/>
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arya&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+
+{% endblock %}
+
+<!-- <link rel="stylesheet" type="text/css" href="{%static 'blog/about.css' %}"> -->
+
+  <!-- <h1>about page</h1> -->
+
+
+<div id="intro">
+  <h1>दिन भर की कश्मकश और रातों के ख्वाब से,<br>
+    एक कहानी में लाया हूं ज़िन्दगी की किताब से,</h1>
+  <h3>By Kshitij Gupta~</h3>
+</div>
+
+<div  id="para">
+    <div class="post">
+    <p>
+        दिन भर की कश्मकश और रातों के ख्वाब से,<br>
+        एक कहानी में लाया हूं ज़िन्दगी की किताब से,<br>
+        तो करलो सर पे मालिश चमेली के तेल से,<br>
+        आओ तुम्हें वाकिफ करवाऊं एक नए किस्म के खेल से।<br><br><br>
+        
+        ये खेल सबके लिए गुड्डा-गुड़िया के समान है,<br>
+        इसके किरदारों को ना कोई लाज, ना उनका ईमान है।<br><br><br>
+        
+        इस खेल की शुरुआत में वे पहले आपको फुस्लाएंगे,<br>
+        शहद में लपेटकर जी भरके चूना लगाएंगे,<br>
+        आप आम खाने की ख्वाहिश में, खुशी से कद्दू कटवाएंगे,<br>
+        फिर मुंह लटकाए बैठकर, उसी की सब्जी खाएंगे।<br><br><br>
+        
+        फिर बारिश होगी उस ओर से मक्खन के बाडों की,<br>
+        और आप आहुति दे बैठेंगे अपने क्रोध के प्राणों की,<br>
+        फिर एक मास्टर मूव से आप गलत होजाएंगे,<br>
+        और रूठे हुए आप अब उन्हें जाकर मनाएंगे।<br>
+        
+        अगले चरण में वे आपको दुनिया से अलग बताएंगे,<br>
+        आपके साथ में वे सनिमा देखने जाएंगे,<br>
+        आपको लगेगा आपतो कूल बन गए,<br>
+        मुबारक हो मेरे यार, आप फूल बन गए।<br><br><br>
+        
+        फिर प्रयोग होगा आपपर एक चैट नामक मंत्र का,<br>
+        उपयोग होगा उसमें एक मोबाइल नामक यंत्र का,<br>
+        आप सुदबुद खोकर उनके पीछे पीछे चल देंगे,<br>
+        और वो अगले ही पल जज़्बात बदल देंगे।<br><br><br>
+        
+        मित्र कहेंगे आपके कि ये व्यक्ति एकदम ठग है,<br>
+        जवाब होगा आपका कि "मेरी वाली अलग है",<br>
+        भटके हुए आप इस गड्ढे में गिर जाएंगे,<br>
+        फिर नगरपालिका को बुलाकर, "अरे भाई भाई" चिल्लाएंगे।<br><br><br>
+        
+        सीना ताने आप अपने दिल की कहने जाएंगे,<br>
+        और उनके मित्रों की आज्ञा अनुसार, मित्रक्षेत्र होजाएंगे,<br>
+        अब लौट जाने के आलावा और क्या ही चार है,<br>
+        इस घड़ी में तो अब अरिजीत ही सहारा है।<br><br><br>
+        
+        फिर कई महीनों तक आप उनसे आस लगाएंगे,<br>
+        पारो के इंतज़ार में देवदास होजाएंगे,<br>
+        अंत में आप अपने मित्रों को सही बताएंगे,<br>
+        और तकिए को सीने से लगाकर चुप चाप सोजाएंगे।<br><br><br>
+        
+        आज वो किसी और का सर खा रहे हैं,<br>
+        असल में "ये सारे मिलके हमको पागल बना रहे हैं",<br>
+        इस पंक्ति से ज़्यादा और क्या ही कहूं यारो,<br>
+        बस इतना ही कहूंगा, "ओ भाई मारो, मुझे मारो"।<br><br><br>
+        
+        खैर मज़ाक से परे कहूं तो, हर कश्ती का यही हाल है,<br>
+        हर कदम पर देखलो, यहां बेहुदा से जाल हैं।<br><br><br>
+        
+        छोड़ आया ये खेल,<br>
+        क्यूंकि अब रहा नहीं जाता,<br>
+        इंसान गिरे तो उठा भी दूं,<br>
+        मगर गिरे हुए इंसानों को उठाना मुझे नहीं आता।।।<br><br>
+        .
+    </p>
+    </div>
+</div>
+
+  
+{%endblock content%}
